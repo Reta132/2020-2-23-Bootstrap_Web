@@ -1,0 +1,42 @@
+// 修改 boostrap
+.card {
+    display: block;
+}
+
+// 自己樣式
+.icon-s1{
+    width: auto;
+    height: 180px;
+}
+
+.icon-s2 {
+    width: 32px;
+    height: 32px;
+}
+
+.left-icon {
+    width: 50%;
+    height: auto;
+}
+
+.icon-style {
+    box-sizing: content-box;
+    border-radius: 10% !important;
+
+    &:hover {
+        background: skyblue;
+    }
+}
+
+//RWD
+@media (max-width:1024px){
+.carousel-img{
+    height: 80vh;
+}
+}
+
+@media (min-width:1025px){
+    .carousel-img{
+        height: 80vh;
+    }
+    }
