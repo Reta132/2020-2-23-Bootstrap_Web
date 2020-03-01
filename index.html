@@ -5,11 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Bootstrap 網站</title>
-    <link rel="stylesheet" href="./index.css">
+
 
     <!-- Bootstrap CSS CDN放上面 -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- 自己的樣式 -->
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -95,9 +99,9 @@
     <!-- 下面內容容器-life -->
     <div class="container">
         <!-- 卡片 -->
-        <h1 class="text-center py-4">The life of them</h1>
+        <h1 class="text-center py-4" data-aos-easing="ease-in-out-quart" data-aos="fade-up-left" data-aos-duration="1000">The life of them</h1>
         <div class="card-group">
-            <div class="card m-3 border-0" style="width: 18rem;">
+            <div class="card m-3 border-0" style="width: 18rem;" data-aos-delay="50" data-aos="flip-down" data-aos-duration="1000">
                 <img src="./img/icon1.png" class="card-img-top mb-2 icon-style icon-s1" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -105,15 +109,15 @@
                         card's content.</p>
                 </div>
             </div>
-            <div class="card m-3 border-0" style="width: 18rem;">
-                <img src="./img/icon2.png" class="card-img-top mb-2 icon-style icon-s1" alt="...">
+            <div class="card m-3 border-0" style="width: 18rem;" data-aos-delay="50" data-aos="flip-down" data-aos-duration="1000" >
+                <img src="./img/icon2.png" class="card-img-top mb-2 icon-style icon-s1" alt="..." >
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                         card's content.</p>
                 </div>
             </div>
-            <div class="card m-3 border-0" style="width: 18rem;">
+            <div class="card m-3 border-0" style="width: 18rem;" data-aos-delay="50" data-aos="flip-down" data-aos-duration="1000">
                 <img src="./img/icon3.png" class="card-img-top mb-2 icon-style icon-s1" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -123,7 +127,8 @@
             </div>
         </div>
         <!-- 按鈕 -->
-        <button type="button" class="btn btn-outline-info d-block mx-auto my-3 w-25">More</button>
+        <button type="button" class="btn btn-outline-info d-block mx-auto my-3 w-25" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="50"
+        data-aos-anchor-placement="top-bottom">More</button>
     </div>
 
     <!-- 有背景的區塊-food -->
@@ -132,40 +137,40 @@
             <h1 class="text-center py-4">The food about them</h1>
             <div class="row">
                 <div class="col-lg-5 col-sm-12 col-md-12">
-                    <img src="./img/left-con.png" alt="" class="w-100 left-icon">
+                    <img src="./img/left-con.png" alt="" class="w-50 text-center">
                 </div>
 
                 <div class="col-lg-7 col-sm-12 col-md-12">
                     <div class="content-box d-inline-flex">
-                        <img src="./img/con-icon1.png" alt="" class="w-25 h-25 icon-style icon-s2">
+                        <img src="./img/con-icon1.png" alt="" class="w-25 h-25 icon-style icon-s2" data-aos-easing="ease-in-out-sine" data-aos="fade-top">
                         <div class="p-3">
                             <h2>次標題</h2>
                             <p>我是文案，我是文案，我是文案，我是文案，我是文案，我是文案。</p>
                         </div>
                     </div>
                     <div class="content-box d-inline-flex">
-                        <img src="./img/con-icon2.png" alt="" class="w-25 h-25 icon-style icon-s2">
+                        <img src="./img/con-icon2.png" alt="" class="w-25 h-25 icon-style icon-s2" data-aos-easing="ease-in-out-sine" data-aos="fade-top">
                         <div class="p-3">
                             <h2>次標題</h2>
                             <p>我是文案，我是文案，我是文案，我是文案，我是文案，我是文案。</p>
                         </div>
                     </div>
                     <div class="content-box d-inline-flex">
-                        <img src="./img/con-icon3.png" alt="" class="w-25 h-25 icon-style icon-s2">
+                        <img src="./img/con-icon3.png" alt="" class="w-25 h-25 icon-style icon-s2" data-aos-easing="ease-in-out-sine" data-aos="fade-top">
                         <div class="p-3">
                             <h2>次標題</h2>
                             <p>我是文案，我是文案，我是文案，我是文案，我是文案，我是文案。</p>
                         </div>
                     </div>
                     <div class="content-box d-inline-flex">
-                        <img src="./img/con-icon4.png" alt="" class="w-25 h-25 icon-style icon-s2">
+                        <img src="./img/con-icon4.png" alt="" class="w-25 h-25 icon-style icon-s2" data-aos-easing="ease-in-out-sine" data-aos="fade-top">
                         <div class="p-3">
                             <h2>次標題</h2>
                             <p>我是文案，我是文案，我是文案，我是文案，我是文案，我是文案。</p>
                         </div>
                     </div>
                     <div class="content-box d-inline-flex">
-                        <img src="./img/con-icon5.png" alt="" class="w-25 h-25 icon-style icon-s2">
+                        <img src="./img/con-icon5.png" alt="" class="w-25 h-25 icon-style icon-s2" data-aos-easing="ease-in-out-sine" data-aos="fade-top">
                         <div class="p-3">
                             <h2>次標題</h2>
                             <p>我是文案，我是文案，我是文案，我是文案，我是文案，我是文案。</p>
@@ -203,6 +208,13 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
 </body>
 
 </html>

@@ -12,11 +12,6 @@
   height: 32px;
 }
 
-.left-icon {
-  width: 50%;
-  height: auto;
-}
-
 .icon-style {
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
@@ -27,15 +22,26 @@
   background: skyblue;
 }
 
-@media (max-width: 1024px) {
+.col-md-8 {
+  -webkit-column-span: 12;
+          column-span: 12;
+}
+
+@media only screen and (max-width: 433px) {
+  .carousel-img {
+    height: 50vh;
+  }
+}
+
+@media only screen and (min-width: 432px) {
   .carousel-img {
     height: 80vh;
   }
 }
 
-@media (min-width: 1025px) {
+@media only screen and (min-width: 1025px) {
   .carousel-img {
-    height: 80vh;
+    height: 100vh;
   }
 }
 /*# sourceMappingURL=style.css.map */
