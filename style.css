@@ -22,11 +22,6 @@
   background: skyblue;
 }
 
-.col-md-8 {
-  -webkit-column-span: 12;
-          column-span: 12;
-}
-
 @media only screen and (max-width: 433px) {
   .carousel-img {
     height: 50vh;
